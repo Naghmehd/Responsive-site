@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 1em;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+.navigation {
+  color: #d3d3d3;
+  overflow: hidden; }
+  .navigation .logo {
+    float: left;
+    display: block;
+    margin: 1em 0;
+    padding-left: 1.5em;
+    color: #666; }
+  .navigation .menu-bar {
+    float: left; }
+    .navigation .menu-bar li {
+      list-style: none;
+      float: left;
+      display: block;
+      margin-right: 2em;
+      margin-bottom: 0; }
+      .navigation .menu-bar li:hover {
+        color: #000; }
+
+.picture {
+  background-image: url("../images/tree.png");
+  color: white;
+  text-align: center;
+  text-shadow: 2px 1px 2px #000;
+  height: 13em;
+  margin: 0 auto; }
+
+.simple-price {
+  padding-top: 2em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.try-before {
+  font-weight: normal;
+  line-height: 0%; }
+
+.membership {
+  text-align: center; }
+  .membership .info {
+    background-color: #F7F7F7;
+    border: .1em solid #E6E6E6;
+    margin-top: 2em; }
+    .membership .info .title {
+      letter-spacing: 2px;
+      margin: 0; }
+    .membership .info .price-text {
+      font-weight: bold;
+      font-size: 3em;
+      margin: 0; }
+    .membership .info .per-months {
+      font-weight: normal;
+      margin: 0; }
+
+.five {
+  background-color: green;
+  color: white;
+  padding: 3em 0; }
+
+.per-months.green {
+  color: #799179; }
+
+.info > p {
+  color: #5F6C71;
+  border-bottom: .1em solid #E6E6E6;
+  padding: 1em 0;
+  margin: 0; }
+
+.twenty-five {
+  background-color: #284279;
+  color: white;
+  padding: 3em 0; }
+
+.per-months.blue {
+  color: #8999BB; }
+
+.forty-five {
+  background-color: black;
+  color: white;
+  padding: 3em 0; }
+
+.per-months.grey {
+  color: #848484; }
+
+.choose {
+  padding: 2em 0;
+  margin: 0; }
+  .choose button {
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    border-style: solid;
+    padding: 1em 2em;
+    border: .1em solid #e6e6e6;
+    background-color: white;
+    font-size: 1em; }
+
+.more-features {
+  margin: 7em auto 2em auto;
+  padding: 0 1em; }
+  .more-features .more-features-header {
+    font-weight: normal;
+    font-spacing: 3px; }
+  .more-features .para {
+    color: #666;
+    font-spacing: 1px; }
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding: 2em 2em; }
+  .footer .footer-link {
+    color: #fff;
+    text-decoration: underline; }
+  .footer .footer-text {
+    color: #c0c0c0;
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
