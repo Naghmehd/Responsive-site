@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 1em;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family:  "Helvetica" , sans-serif;
 }
 
 .navigation {
@@ -46,7 +46,7 @@ body {
       text-shadow: 2px 1px 2px #000;
       height: 13em;
       margin: 0 auto;
-      }
+
       .simple-price {
         padding-top: 2em;
         font-weight: normal;
@@ -56,7 +56,7 @@ body {
         font-weight: normal;
         line-height: 0%;
       }
-
+    }
 .membership {
   text-align: center;
   .info {
@@ -68,7 +68,7 @@ body {
       margin: 0;
     }
     .price-text {
-      font-weight: bold;
+      font-weight: 300;
       font-size: 3em;
       margin: 0;
     }
@@ -159,10 +159,69 @@ body {
     }
 }
 
-@media (min-width: 768px){
-  // .membership {
-  //   .info {
-  //     background-color: red;
-  //   }
-  // }
+@media (min-width: 476px){
+  .picture {
+    padding: 6em 0;
+      .simple-price {
+        font-size: 3em;
+        padding-top: 0.6em;
+      }
+      .try-before {
+        font-size: 3em;
+      }
+    }
+
+  .main {
+    .membership {
+        .info  {
+            .five > p {
+              font-size: 2em;
+              }
+            .five > h1 {
+              font-size: 6em;
+            }
+            .five > h3 {
+              font-size: 2em;
+            }
+            .twenty-five > p {
+              font-size: 2em;
+              }
+            .twenty-five > h1 {
+              font-size: 6em;
+            }
+            .twenty-five > h3 {
+              font-size: 2em;
+            }
+            .forty-five > p {
+              font-size: 2em;
+              }
+            .forty-five > h1 {
+              font-size: 6em;
+            }
+            .forty-five > h3 {
+              font-size: 2em;
+            }
+          }
+        .choose  {
+          font-size: 1em;
+        }
+      }
+    .more-features {
+      margin: 7em auto 3em auto;
+      padding: 0 1em;
+      letter-spacing: 1px;
+      .para {
+        margin-bottom: 4em;  
+      }
+    }
+  }
+
+.footer {
+  .footer-text {
+    letter-spacing: 1px;
+    .footer-link {
+      letter-spacing: 1px;
+    }
+  }
+}
 }
