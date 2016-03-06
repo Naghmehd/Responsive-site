@@ -161,7 +161,7 @@ body {
     .footer .footer-text .footer-link {
       letter-spacing: 1px; } }
 @media (min-width: 768px) {
-  body {
+  body #index {
     margin: 0;
     padding: 0; }
 
@@ -181,34 +181,88 @@ body {
     .main .membership .info {
       display: block;
       float: left;
-      width: 29%;
+      width: 28%;
       margin: 3em 1em; }
-      .main .membership .info .five .title {
-        font-size: 18px; }
-      .main .membership .info .five .pricing-text {
-        font-weight: 100; }
-      .main .membership .info .five .per-months {
-        font-size: 19px; }
-      .main .membership .info .twenty-five .title {
-        font-size: 18px; }
-      .main .membership .info .twenty-five .pricing-text {
-        font-weight: 100; }
-      .main .membership .info .twenty-five .per-months {
-        font-size: 19px; }
-      .main .membership .info .forty-five .title {
-        font-size: 18px; }
-      .main .membership .info .forty-five .pricing-text {
-        font-weight: 100; }
-      .main .membership .info .forty-five .per-months {
-        font-size: 19px; }
+      .main .membership .info .five > p {
+        font-size: 1em; }
+      .main .membership .info .five > h1 {
+        font-size: 4em; }
+      .main .membership .info .five > h3 {
+        font-size: 1em; }
+      .main .membership .info .twenty-five > p {
+        font-size: 1em; }
+      .main .membership .info .twenty-five > h1 {
+        font-size: 4em; }
+      .main .membership .info .twenty-five > h3 {
+        font-size: 1em; }
+      .main .membership .info .forty-five > p {
+        font-size: 1em; }
+      .main .membership .info .forty-five > h1 {
+        font-size: 4em; }
+      .main .membership .info .forty-five > h3 {
+        font-size: 1em; }
+
+  .more-features {
+    margin: 0 !important;
+    width: 100%;
+    display: block;
+    overflow: hidden; }
+    .more-features .block {
+      float: left;
+      width: 19em;
+      padding: 0 2em; }
+      .more-features .block .para {
+        line-height: 1em; } }
+.footer .footer-text {
+  display: inline-block; }
+
+@media (min-width: 979px) {
+  .picture {
+    background-size: cover;
+    padding: 3em 0; }
+    .picture .simple-price {
+      font-size: 2em;
+      padding-top: 2.6em; }
+    .picture .try-before {
+      font-size: 2em; }
+
+  .main .membership {
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 4em; }
+    .main .membership .info {
+      display: block;
+      float: left;
+      width: 28%;
+      margin: 3em 1em; }
+      .main .membership .info p {
+        font-size: 14px; }
+      .main .membership .info .five > p {
+        font-size: 1em; }
+      .main .membership .info .five > h1 {
+        font-size: 3em; }
+      .main .membership .info .five > h3 {
+        font-size: 1em; }
+      .main .membership .info .twenty-five > p {
+        font-size: 1em; }
+      .main .membership .info .twenty-five > h1 {
+        font-size: 3em; }
+      .main .membership .info .twenty-five > h3 {
+        font-size: 1em; }
+      .main .membership .info .forty-five > p {
+        font-size: 1em; }
+      .main .membership .info .forty-five > h1 {
+        font-size: 3em; }
+      .main .membership .info .forty-five > h3 {
+        font-size: 1em; }
   .main .more-features {
-    margin: 0;
+    margin: 0 3em;
     width: 100%;
     display: block;
     overflow: hidden; }
     .main .more-features .block {
       float: left;
-      width: 25em;
+      width: 23em;
       padding: 0 2em; }
       .main .more-features .block .block3 {
         transform: translateY(-100%); }

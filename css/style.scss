@@ -4,6 +4,8 @@ $black: #000;
 $dark-grey: #666;
 $background-grey: #F7F7F7;
 $green: #4E8C4E;
+$blue: #284279;
+$light-blue: #8999BB;
 
 
 body {
@@ -97,13 +99,13 @@ body {
 }
 
 .twenty-five {
-  background-color: #284279;
+  background-color: $blue;
   color: white;
   padding: 3em 0;
 }
 
 .per-months.blue {
-  color: #8999BB;
+  color: $light-blue;
 }
 
 .forty-five {
@@ -227,7 +229,7 @@ body {
 }
 
 @media (min-width: 768px){
-  body {
+  body #index {
     margin: 0;
     padding: 0;
   }
@@ -251,52 +253,126 @@ body {
       .info {
       display: block;
       float: left;
-      width: 29%;
+      width: 28%;
       margin: 3em 1em;
-        .five {
-          .title {
-            font-size: 18px;
-          }
-          .pricing-text {
-            font-weight: 100;
-          }
-          .per-months {
-            font-size: 19px;
-          }
+        .five > p {
+          font-size: 1em;
         }
-        .twenty-five {
-          .title {
-            font-size: 18px;
-          }
-          .pricing-text {
-            font-weight: 100;
-          }
-          .per-months {
-            font-size: 19px;
-          }
+        .five > h1 {
+          font-size: 4em;
         }
-        .forty-five {
-          .title {
-            font-size: 18px;
+        .five > h3 {
+          font-size: 1em;
+        }
+        .twenty-five > p {
+          font-size: 1em;
           }
-          .pricing-text {
-            font-weight: 100;
+        .twenty-five > h1 {
+          font-size: 4em;
+        }
+        .twenty-five > h3 {
+          font-size: 1em;
+        }
+        .forty-five > p {
+          font-size: 1em;
           }
-          .per-months {
-            font-size: 19px;
-          }
+        .forty-five > h1 {
+          font-size: 4em;
+        }
+        .forty-five > h3 {
+          font-size: 1em;
         }
       }
     }
+  }
     .more-features {
-      margin: 0;
+      margin: 0 !important;
       width: 100%;
       display: block;
       overflow: hidden;
 
       .block {
         float: left;
-        width: 25em;
+        width: 19em;
+        padding: 0 2em;
+        .block3::after {
+
+        }
+          .para {
+            line-height: 1em;
+          }
+      }
+    }
+  }
+.footer {
+    .footer-text {
+      display: inline-block;
+    }
+}
+
+@media (min-width: 979px){
+  .picture {
+      background-size: cover;
+      padding: 3em 0;
+      .simple-price {
+        font-size: 2em;
+        padding-top: 2.6em;
+      }
+      .try-before {
+        font-size: 2em;
+      }
+  }
+  .main {
+    .membership {
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 4em;
+      .info {
+      display: block;
+      float: left;
+      width: 28%;
+      margin: 3em 1em;
+        p {
+          font-size: 14px;
+        }
+        .five > p {
+          font-size: 1em;
+        }
+        .five > h1 {
+          font-size: 3em;
+        }
+        .five > h3 {
+          font-size: 1em;
+        }
+        .twenty-five > p {
+          font-size: 1em;
+          }
+        .twenty-five > h1 {
+          font-size: 3em;
+        }
+        .twenty-five > h3 {
+          font-size: 1em;
+        }
+        .forty-five > p {
+          font-size: 1em;
+          }
+        .forty-five > h1 {
+          font-size: 3em;
+        }
+        .forty-five > h3 {
+          font-size: 1em;
+        }
+      }
+    }
+    .more-features {
+      margin: 0 3em;
+      width: 100%;
+      display: block;
+      overflow: hidden;
+
+      .block {
+        float: left;
+        width: 23em;
         padding: 0 2em;
         .block3 {
           transform: translateY(-100%);
@@ -315,7 +391,7 @@ body {
 
     }
   }
-.footer {
+  .footer {
     .footer-text {
       display: inline-block;
     }
