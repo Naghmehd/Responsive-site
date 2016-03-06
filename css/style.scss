@@ -211,7 +211,7 @@ body {
       padding: 0 1em;
       letter-spacing: 1px;
       .para {
-        margin-bottom: 4em;  
+        margin-bottom: 4em;
       }
     }
   }
@@ -224,4 +224,100 @@ body {
     }
   }
 }
+}
+
+@media (min-width: 768px){
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .picture {
+    margin: 0;
+    padding: 8em 0;
+      .simple-price {
+        font-size: 3em;
+        padding-top: 1em;
+
+      }
+      .try-before {
+        font-size: 3em;
+        line-height: 1px;
+      }
+  }
+  .main {
+    .membership {
+    overflow: hidden;
+    box-sizing: border-box;
+      .info {
+      display: block;
+      float: left;
+      width: 29%;
+      margin: 3em 1em;
+        .five {
+          .title {
+            font-size: 18px;
+          }
+          .pricing-text {
+            font-weight: 100;
+          }
+          .per-months {
+            font-size: 19px;
+          }
+        }
+        .twenty-five {
+          .title {
+            font-size: 18px;
+          }
+          .pricing-text {
+            font-weight: 100;
+          }
+          .per-months {
+            font-size: 19px;
+          }
+        }
+        .forty-five {
+          .title {
+            font-size: 18px;
+          }
+          .pricing-text {
+            font-weight: 100;
+          }
+          .per-months {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+    .more-features {
+      margin: 0;
+      width: 100%;
+      display: block;
+      overflow: hidden;
+
+      .block {
+        float: left;
+        width: 25em;
+        padding: 0 2em;
+        .block3 {
+          transform: translateY(-100%);
+        }
+        .block3::before {
+          content: '';
+        }
+        .block4::after {
+          content: '';
+        }
+          .para {
+            letter-spacing: 1px;
+            line-height: 1em;
+          }
+      }
+
+    }
+  }
+.footer {
+    .footer-text {
+      display: inline-block;
+    }
+  }
 }
